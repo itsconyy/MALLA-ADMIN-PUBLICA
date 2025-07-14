@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Interactiva - Administración Pública</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Malla Administración Pública - UChile</h1>
+  <div id="malla" class="grid-container"></div>
+
+  <div id="info" class="info-panel hidden">
+    <button onclick="cerrarInfo()">Cerrar</button>
+    <h2 id="nombre-ramo"></h2>
+    <p><strong>Descripción:</strong> <span id="descripcion"></span></p>
+    <p><strong>Créditos:</strong> <span id="creditos"></span></p>
+    <p><strong>Profesor:</strong> <span id="profesor"></span></p>
+    <p><strong>Prerrequisitos:</strong> <span id="prerrequisitos"></span></p>
+    <p><a id="link" href="#" target="_blank">Más info</a></p>
+    <button onclick="cambiarEstado()">Aprobar/Reprobar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
